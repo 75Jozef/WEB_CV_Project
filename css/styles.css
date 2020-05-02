@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Catamaran', sans-serif;
+  background-color: #e4f9f5;
+  color: #404040;
+}
+
+.frame {
+  width: 55%;
+  margin: auto;
+      background-image: linear-gradient(#0099ff,#80dfff);
+}
+
+.instantIdeas {
+  margin: 0;
+  position: relative;
+  bottom: 2rem;
+  color: #FFFFFF;
+  font-size: 2rem;
+}
+
+hr {
+  border-style: dotted;
+  border-color: white;
+  border-bottom: none;
+  border-width: 12px;
+  width: 3%;
+  margin: 35px auto 35px auto;
+
+}
+
+.saying {
+  color: #FFFFFF;
+  }
+
+.profilePhoto {
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+}
+
+.gifCreativity {
+  border-radius: 50%;
+}
+
+.gifCreativity:hover {
+
+}
+
+.about {
+  text-align: center;
+  }
+
+.visitcard {
+  position: relative;
+  bottom: 20px;
+}
+
+.interests {
+  font-size: 3rem;
+  margin: 0 auto 0 auto;
+}
+
+h1 {
+  margin: 0 auto;
+  font-size: 7rem;
+  color: #ffff00;
+  font-family: 'Handlee', cursive;
+}
+
+h2 {
+  font-family: 'Handlee', cursive;
+  font-size: 3.5rem;
+  color: #404040;
+  border: 0 auto 0 0;
+  font-weight: bolder;
+}
+
+a {
+  color: #404040;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 2.5rem;
+  margin: 20px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #80dfff;
+}
+
+
+h3 {
+  font-family: 'Handlee', cursive;
+  margin: 0;
+  color:shite;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  }
+
+.middle-container {
+  width: 75%;
+  margin: 0 auto 0 auto;
+
+  }
+
+.bottom-container {
+  color: white;
+margin: 0 auto;
+font-size: 1.5rem;
+}
+
+.upper-cloud {
+  position: relative;
+  left: 150px;
+  top: 0px;
+  animation-name: oblaky;
+  animation-duration: 120s;
+}
+
+.middle-cloud {
+  position: relative;
+right: 230px;
+  top: 140px;
+  animation-name: oblaky;
+  animation-duration: 60s;
+}
+
+.bottom-cloud {
+  position: relative;
+  left: 270px;
+  bottom: 50px;
+  animation-name: oblaky;
+  animation-duration: 180s;
+}
+
+.skill-row {
+    color: #404040;
+  width: 100%;
+  margin: 0 auto 36px auto;
+
+}
+
+.btn {
+   background: #80dfff;
+   background-image: -webkit-linear-gradient(top, #80dfff, #0099ff);
+   background-image: -moz-linear-gradient(top, #80dfff, #0099ff);
+   background-image: -ms-linear-gradient(top, #80dfff, #0099ff);
+   background-image: -o-linear-gradient(top, #80dfff, #0099ff);
+   background-image: linear-gradient(to bottom, #80dfff, #0099ff);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Handlee', cursive;
+   font-size: 35px;
+   font-weight: 100;
+   padding: 10px;
+   box-shadow: 1px 1px 7px 0px #404040;
+   -webkit-box-shadow: 1px 1px 7px 0px #404040;
+   -moz-box-shadow: 1px 1px 7px 0px #404040;
+   text-shadow: 1px 1px 7px #404040;
+   border: solid #0099ff 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #0099ff, #80dfff);
+   background-image: -moz-linear-gradient(top, #0099ff, #80dfff);
+   background-image: -ms-linear-gradient(top, #0099ff, #80dfff);
+   background-image: -o-linear-gradient(top, #0099ff, #80dfff);
+   background-image: linear-gradient(to bottom, #0099ff, #80dfff);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.contact-me {
+margin: 0 auto;
+}
+
+.spodok {
+  background-image: linear-gradient(#80dfff,#0099ff);
+  margin: auto;
+  width: 100%;
+}
+
+@keyframes oblaky {
+  0%   {left:0px; top:0px;}
+  50%  {left:200px; top:0px;}
+  100% {left:0px; top:0px;}
+}
